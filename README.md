@@ -11,8 +11,8 @@ Ce dépôt est actuellement sur un serveur, accessible par internet. Il va fallo
 Ouvrez un terminal (l'endroit importe peu) et executer les commandes suivante:
 ```
 git clone https://github.com/ThomasRieutord/tp-classification-ienm2.git
-cd tp-classification-ienm2
-jupyter-notebook sujet.ipynb
+cd tp-classification-ienm2/notebooks/
+jupyternb37 sujet.ipynb
 ```
 
 Déverouillage de la correction
