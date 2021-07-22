@@ -15,10 +15,24 @@ import matplotlib.cm as cm
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import cartopy.io.img_tiles as cimgt
-from meteonet_toolbox.constant import DOMAINS
 # Bugfix (13/07/2021): impossible de télécharger tuiles Cartopy
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
+
+# Extracted from Meteonet toolbox
+def create_dic_borne(N,S,W,E):
+    dic = {
+        'uly' : N,
+        'lry' : S,
+        'ulx' : W,
+        'lrx' : E
+    }
+    return dic
+
+DOMAINS = {
+    'NW'   :  create_dic_borne( 51.896, 46.25, -5.842, 2),
+    'SE'  :  create_dic_borne( 46.25, 41.1, 2, 9.842)
+    }
 
 
 def plot_clusters_on_map(labels, lats, lons, colormap="nipy_spectral"):
