@@ -8,11 +8,14 @@ Lancement du TP
 ---------------
 
 Ce dépôt est actuellement sur un serveur, accessible par internet. Il va falloir le récupérer chez vous.
-Ouvrez un terminal (l'endroit importe peu) et executer les commandes suivante:
+Ouvrez un terminal (l'endroit importe peu) et exécutez les commandes suivantes :
 ```
 git clone https://github.com/ThomasRieutord/tp-classification-ienm2.git
-cd tp-classification-ienm2/notebooks/
-jupyternb37 sujet.ipynb
+cd tp-classification-ienm2
+conda env create -f tpclassif.yml
+conda activate tpclassif
+cd notebooks
+jupyter-notebook sujet.ipynb
 ```
 
 Déverouillage de la correction
@@ -27,5 +30,8 @@ About
 ------
 This repository contains the tutorship that is part of the *Unsupervised classification* course given to the French National School of Meteorology ([ENM](http://www.enm-toulouse.fr/)).
 The corresponding course is freely available on HAL, following this [link](https://hal-meteofrance.archives-ouvertes.fr/meteo-02465143v1).
+The data used in this tutorship is extracted from [MeteoNet](https://meteonet.umr-cnrm.fr/).
+The procedure to download and prepare the data is available in the folder `meteonet`.
+Feel free to reuse, to improve and to contact me if any question arise.
 
 Contact : Thomas Rieutord (thomas.rieutord@meteo.fr)

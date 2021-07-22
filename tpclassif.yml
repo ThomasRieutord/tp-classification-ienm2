@@ -1,0 +1,14 @@
+name: tpclassif
+channels:
+  - conda-forge
+  - anaconda 
+dependencies:
+- python>=3.6.0
+- numpy
+- scipy
+- pandas
+- scikit-learn
+- pyclustering
+- matplotlib
+- cartopy
+- jupyter
