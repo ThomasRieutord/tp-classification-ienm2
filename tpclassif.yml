@@ -10,5 +10,6 @@ dependencies:
 - scikit-learn
 - pyclustering
 - matplotlib
+- seaborn
 - cartopy
 - jupyter
