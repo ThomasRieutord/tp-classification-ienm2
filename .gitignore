@@ -1,0 +1,7 @@
+*/no_save/*
+*/tmp/*
+*/__pycache__/*
+*.pyc
+local/*
+draft/*
+
