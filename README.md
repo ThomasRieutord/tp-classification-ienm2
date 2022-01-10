@@ -9,6 +9,15 @@ Lancement du TP
 
 Ce dépôt est actuellement sur un serveur, accessible par internet. Il va falloir le récupérer chez vous.
 Ouvrez un terminal (l'endroit importe peu) et exécutez les commandes suivantes :
+
+### A l'ENM
+```
+git clone https://github.com/ThomasRieutord/tp-classification-ienm2.git
+cd tp-classification-ienm2/notebooks
+jupyternb37 sujet.ipynb
+```
+
+### Chez soi
 ```
 git clone https://github.com/ThomasRieutord/tp-classification-ienm2.git
 cd tp-classification-ienm2
